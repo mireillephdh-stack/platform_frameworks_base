@@ -1664,7 +1664,7 @@
 
     <issue
         id="FlaggedApi"
-        message="Method `createFromParcelBody()` is a flagged API and should be inside an `if (Flags.tiafVApis())` check (or annotate the surrounding method `createFromParcel` with `@FlaggedApi(Flags.FLAG_TIAF_V_APIS) to transfer requirement to caller`)"
+        message="Method`createFromParcelBody()` is a flagged API and should be inside an `if (Flags.tiafVApis())` check (or annotate the surrounding method `createFromParcel` with `@FlaggedApi(Flags.FLAG_TIAF_V_APIS) to transfer requirement to caller`)"
         errorLine1="                            return SignalingDataResponse.createFromParcelBody(source);"
         errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
